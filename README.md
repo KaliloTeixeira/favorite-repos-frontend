@@ -1,32 +1,18 @@
-***** REACT *****
-    - Biblioteca utilizada para manipular a DOM 
-    - Muito utilizada para SPA ( Single Page Application )
-    - Baseado em componentes
+# FAVORITE REPOS
+I build that application as exercise from Rocketseat classes and could learn how to connect React to a Node API. Going further, i've decide to upload that APP in heroku. So, you can find it at: https://favorite-repos-frontend.herokuapp.com/.
 
-    * Criando Projeto:
-    - npm install create-react-app -g
-    - create-react-app nome-do-projeto  //Aqui ele cria o projeto
+## Technologies
+* ReactJS - Frontend Framework
 
-    * Acessando a API:
-    - Para acessar a api, vamos utilizar a Biblioteca Axios
-    - npm install axios
-        - criar pasta services - Pasta para arquivos que conectam com serviços externos
-        - criar arquivo api.js
-            - importar o axios e utilizar o .create()
-            ...Veja o exemplo na pasta
+## Libraries
+* Axios
+* react-dom
+* react-icons
+* react-router-dom
 
-    * Buscando dados na API
-    - Os dados buscados na API devem ser armazenados em state
-    Ex: 
-        - Instanciando um state
-        state = { products: [] }
+=> You can find more about my learning process in ./notes.txt.
 
-        - Alterando o valor de um state - deve utilizar o .setState()
-        this.setState({ products: response.data });
+## Install Guide
 
-    * Navegação entre páginas:
-        Para navegar entre páginas no react deve-se instalar a Biblioteca react-router-DOM
-        - npm install react-router-dom
-        
-        - criar o arquivo routes.js
-            - ver arquivo para mais detalhes
+- Clone this repositorie;
+- run 'npm start';
