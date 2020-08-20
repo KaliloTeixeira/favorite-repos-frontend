@@ -1,0 +1,75 @@
+.add-product-container {
+    max-width: 700px;
+    height: 400px;
+    margin: auto;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.add-product {
+    width: 90%;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+
+.add-product h1 {
+    text-align: center;
+    color: #da552f;
+}
+
+.add-product form {
+    display: flex;
+    flex-flow: column;
+}
+
+.add-product form label {
+    margin: 20px 0 5px 0;
+    color: rgba(218, 85, 47, 1);
+}
+
+.add-product form input {
+    border: 1px solid rgba(218, 85, 47, 0.3);
+    background-color: rgba(218, 85, 47, 0.1);
+    border-radius: 5px;
+    line-height: 30px;
+    color: #da552f;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.add-product form .submit-button {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 35px;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-product form .submit-button:hover {
+    background: #da552f;
+    color: #ffffff;
+}
+
+.arrow-back {
+    text-align: center;
+}
+
+.arrow-back a{
+    font-size: 40px;
+    color: #da552f;
+    text-decoration: none;
+}
+
