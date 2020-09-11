@@ -21,5 +21,4 @@ I build that application as exercise from Rocketseat classes and could learn how
 <p align="center" >
   <img src="/layout/img01.PNG" width="500">
   <img src="/layout/img02.PNG" width="500">
-  <img src="/layout/img03.PNG" width="500">  
 </p>
